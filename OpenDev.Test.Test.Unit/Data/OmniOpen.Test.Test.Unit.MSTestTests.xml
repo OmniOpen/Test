@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+    <!-- Class With No TestContext Property-->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class with no TestContext property</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithNoTestContextProperty</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithNoTestContextProperty" lacks required public property named "TestContext"</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+    
+    <!-- Class with Private TestContext Property -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class with private TestContext property</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithPrivateTestContextProperty</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithPrivateTestContextProperty" lacks required public property named "TestContext"</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- Class with Protected TestContext Property -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class with protected TestContext property</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithProtectedTestContextProperty</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithProtectedTestContextProperty" lacks required public property named "TestContext"</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- Class with Internal TestContext Property -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class with internal TestContext property</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithInternalTestContextProperty</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithInternalTestContextProperty" lacks required public property named "TestContext"</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- Class with Protected Internal TestContext Property -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class with protected internal TestContext property</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithProtectedInternalTestContextProperty</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithProtectedInternalTestContextProperty" lacks required public property named "TestContext"</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- TestContext With No Getter -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class has TestContext with no getter</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithNoGetter</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithNoGetter" is required to have a "TestContext" property with a public getter but no public getter was found</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- TestContext With Private Getter -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class has TestContext with private getter</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithPrivateGetter</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithPrivateGetter" is required to have a "TestContext" property with a public getter but no public getter was found</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+    
+    <!-- TestContext With Protected Getter -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class has TestContext with protected getter</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithProtectedGetter</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithProtectedGetter" is required to have a "TestContext" property with a public getter but no public getter was found</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- Test Context With Internal Getter -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class has TestContext with internal getter</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithInternalGetter</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithInternalGetter" is required to have a "TestContext" property with a public getter but no public getter was found</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+    
+    <!-- TestContext With Protected Internal Getter -->
+    <TestData_InvokingClassesWithInvalidTestContextProperties>
+        <TestDescription>Class has TestContext with protected internal getter</TestDescription>
+        <InvokingClass>OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithProtectedInternalGetter</InvokingClass>
+        <ExceptionMessage>Class "OmniOpen.Test.Test.Unit.Helpers.ClassWithTestContextWithProtectedInternalGetter" is required to have a "TestContext" property with a public getter but no public getter was found</ExceptionMessage>
+    </TestData_InvokingClassesWithInvalidTestContextProperties>
+
+    <!-- Retrieve Reference Type -->
+    <TestData_RetrieveReferenceType>
+        <TestDataColumn>Expected Test Data</TestDataColumn>
+    </TestData_RetrieveReferenceType>
+    
+    <!-- Retrieve Value Type -->
+    <TestData_RetrieveValueType>
+        <TestDataColumn>1</TestDataColumn>
+    </TestData_RetrieveValueType>
+
+    <!-- Retrieve Nullable Type With Set Value -->
+    <TestData_RetrieveNullableTypeHavingAValue>
+        <TestDataColumn>true</TestDataColumn>
+    </TestData_RetrieveNullableTypeHavingAValue>
+
+    <!-- Retrieve Nullable Type With Null Value -->
+    <TestData_RetrieveNullableTypeHavingANullValue>
+        <IgnoreDataRow>false</IgnoreDataRow>
+    </TestData_RetrieveNullableTypeHavingANullValue>
+
+    <TestData_RetrieveNullableTypeHavingANullValue>
+        <IgnoreDataRow>true</IgnoreDataRow>
+        <TestDataColumn></TestDataColumn>
+    </TestData_RetrieveNullableTypeHavingANullValue>
+</Root>
