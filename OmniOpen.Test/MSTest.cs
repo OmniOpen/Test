@@ -30,10 +30,10 @@ namespace OmniOpen.Test
     public static class MSTest
     {
         /// <summary>
-        ///     Retrieves data from the current data row of a data driven test
+        ///     Retrieves the current data row's data for a data driven MSTest
         /// </summary>
         /// <typeparam name="TTestData">the data type of the retrieved data</typeparam>
-        /// <param name="this">the invoking object which is expected to be an MSTest</param>
+        /// <param name="this">the invoking object (expected to be an MSTest)</param>
         /// <param name="testDataColumnName">the name of the desired data column of the current data row</param>
         /// <returns></returns>
         public static TTestData TestData<TTestData>(this object @this, string testDataColumnName)
