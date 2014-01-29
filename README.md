@@ -4,7 +4,19 @@ Test
 A library for boiler plate unit and integration test functionality
 
 ##Usage
-The test library has an extension method for conveniently retrieving the current data row's data from a data driven MSTest.  If you were working with the following XML data source
+The test library has an extension method for conveniently retrieving the current data row's data from a data driven MSTest.  This saves you from having to repeated write verbosely so that instead of 
+
+```C#
+int foo = int.Parse(this.TestContext.DataRow["TheDataColumn"]);
+```
+
+you can do this
+
+```C#
+int foo = this.TestData<int>("TheDataColumn");
+```
+
+If you were working with the following XML data source
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
