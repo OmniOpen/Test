@@ -3,6 +3,9 @@ Test
 
 A library for boiler plate unit and integration test functionality
 
+Download the [NuGet Package](https://www.nuget.org/packages/OmniOpen.Test/) by searching for "OmniOpen Test" in Visual Studio's Nuget Package Manager.
+
+
 ##Usage
 The test library has an extension method for conveniently retrieving the current data row's data from a data driven MSTest.  This saves you from having to repeated write verbosely so that instead of 
 
