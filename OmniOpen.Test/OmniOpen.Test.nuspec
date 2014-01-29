@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/OmniOpen/Test/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/OmniOpen/Test</projectUrl>
+    <!-- <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial Release including convenient access to current data row data of data driven MSTests</releaseNotes>
+    <copyright>Copyright (c) 2014 Jerome Bell (jeromebell0509@gmail.com)</copyright>
+    <tags>Data-Driven MSTest</tags>
+  </metadata>
+</package>
