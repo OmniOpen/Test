@@ -74,7 +74,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenDev.Test\OmniOpen.Test.csproj">
+    <ProjectReference Include="..\OmniOpen.Test\OmniOpen.Test.csproj">
       <Project>{a9e70b4f-c358-4445-b146-e9b765717b7e}</Project>
       <Name>OmniOpen.Test</Name>
     </ProjectReference>
