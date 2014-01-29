@@ -1,4 +1,19 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//  Copyright (C) 2014 Jerome Bell (jeromebell0509@gmail.com)
+//
+//  This file is part of OmniOpen Test.
+//  OmniOpen Test is free software: you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation, either version 3 of the License, or
+//  (at your option) any later version.
+//
+//  OmniOpen Test is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with OmniOpen Test.  If not, see <http://www.gnu.org/licenses/>.
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,8 +24,18 @@ using System.Threading.Tasks;
 
 namespace OmniOpen.Test
 {
+    /// <summary>
+    ///     Helper extension methods for writing MSTests
+    /// </summary>
     public static class MSTest
     {
+        /// <summary>
+        ///     Retrieves data from the current data row of a data driven test
+        /// </summary>
+        /// <typeparam name="TTestData">the data type of the retrieved data</typeparam>
+        /// <param name="this">the invoking object which is expected to be an MSTest</param>
+        /// <param name="testDataColumnName">the name of the desired data column of the current data row</param>
+        /// <returns></returns>
         public static TTestData TestData<TTestData>(this object @this, string testDataColumnName)
         {
             PropertyInfo testContextProperty;
